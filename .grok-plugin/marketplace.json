@@ -447,6 +447,20 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "cue",
+      "description": "Score and improve AI prompts with Cue before you send them. Get a clear score, feedback on missing context, and an improved rewrite that preserves your intent.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KingMonkey1/cue-grok-plugin-marketplace.git",
+        "sha": "79daa2d11b0d7ecc9ec28a5118d83d6835bd4f91",
+        "path": "plugins/cue"
+      },
+      "homepage": "https://cue-prompt.com",
+      "keywords": ["cue", "prompt improvement", "prompt engineering", "writing", "productivity"],
+      "domains": ["cue-prompt.com", "api.cue-prompt.com", "cue-mcp-production.up.railway.app"]
     }
   ]
 }
