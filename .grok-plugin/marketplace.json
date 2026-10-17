@@ -19,13 +19,36 @@
       "domains": ["vercel.com"]
     },
     {
+      "name": "cue",
+      "description": "Score and improve AI prompts with Cue before you send them. Get a clear score, feedback on missing context, and an improved rewrite that preserves your intent.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KingMonkey1/cue-grok-plugin-marketplace.git",
+        "sha": "79daa2d11b0d7ecc9ec28a5118d83d6835bd4f91",
+        "path": "plugins/cue"
+      },
+      "homepage": "https://cue-prompt.com",
+      "keywords": [
+        "cue",
+        "cue live",
+        "cue prompt improvement",
+        "cue prompt feedback"
+      ],
+      "domains": [
+        "cue-prompt.com",
+        "api.cue-prompt.com",
+        "cue-mcp-production.up.railway.app"
+      ]
+    },
+    {
       "name": "sentry",
       "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
       "category": "monitoring",
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada"
+        "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +61,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
+        "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -180,7 +203,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "2b85b7d27bd6ee124667fcfe88856f6b1f81671a"
+        "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +269,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "789ef5e0a55ee1d0787a5974660b15bf76dc29b5",
+        "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -274,7 +297,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/supabase-community/supabase-plugin.git",
-        "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151"
+        "sha": "016bf5b36670f7ad189ca90223513bd10406392d"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
       "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
@@ -287,7 +310,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "1e5c90a4b6f249917bd21fe361b3a2a7deb741b8",
+        "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -449,18 +472,17 @@
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
-      "name": "cue",
-      "description": "Score and improve AI prompts with Cue before you send them. Get a clear score, feedback on missing context, and an improved rewrite that preserves your intent.",
-      "category": "productivity",
+      "name": "clerk",
+      "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
+      "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/KingMonkey1/cue-grok-plugin-marketplace.git",
-        "sha": "79daa2d11b0d7ecc9ec28a5118d83d6835bd4f91",
-        "path": "plugins/cue"
+        "url": "https://github.com/clerk/skills.git",
+        "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
       },
-      "homepage": "https://cue-prompt.com",
-      "keywords": ["cue", "prompt improvement", "prompt engineering", "writing", "productivity"],
-      "domains": ["cue-prompt.com", "api.cue-prompt.com", "cue-mcp-production.up.railway.app"]
+      "homepage": "https://clerk.com/docs",
+      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
+      "domains": ["clerk.com", "dashboard.clerk.com"]
     }
   ]
 }
